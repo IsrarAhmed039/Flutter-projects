@@ -48,14 +48,16 @@ class _LoginScreenState extends State<LoginScreen> {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                CircleAvatar(
+                const CircleAvatar(
                   radius: 100,
-                  backgroundImage: AssetImage("assets/images/facebook.jpg"),
+                  backgroundImage: AssetImage(
+                    "assets/images/facebook.jpg",
+                  ),
                 ),
-                SizedBox(
+                const SizedBox(
                   height: 20,
                 ),
-                SizedBox(
+                const SizedBox(
                   height: 20,
                 ),
                 TextFormField(
